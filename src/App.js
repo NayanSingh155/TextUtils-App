@@ -1,17 +1,14 @@
-import logo from './logo.svg';
+// import Navbar from './Components/Navbar'
 import './App.css';
-let name="Nayan"
+import Navbar from './components/Navbar';
+
 function App() {
   return (
-    
-   <div className="App">
-    <li>Home</li>
-    <li>About</li>
-    <li>Contact</li>
-    <h1>Hello {name}</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus velit temporibus, distinctio excepturi beatae odio architecto reiciendis nisi, culpa nihil expedita totam corrupti obcaecati ipsum, quos quas nam. Qui, et.</p>
-   </div>
+    <>
+
+      <Navbar />
+    </>
+
   );
 }
-
 export default App;
